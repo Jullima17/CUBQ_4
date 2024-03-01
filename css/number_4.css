@@ -1,0 +1,57 @@
+.number {
+  padding: 0;
+  color: white;
+  font-size: 8em;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+}
+
+@media (min-width: 1281px) {
+ 
+  .number {
+    scale: 170%;
+    right: 120px !important;
+    top: 5vw !important;
+  }
+}
+
+@media (max-width: 1280px) {
+  .number {
+    font-size: 10em;
+    right: 20px;
+    top: 5vw;
+  }
+}
+
+@media (max-width: 1280px) and (min-width: 884px) {
+  
+  .number {
+    font-size: 10em !important;
+    right: 35px;
+    top: 10px;
+  }
+}
+
+@media (max-width: 884px) {
+  .number {
+    font-size: 9em;
+    font-weight: 900;
+    right: 25px;
+    top: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .number {
+    font-size: 8em;
+    right: 20px;
+    top: 0px;
+  }
+}
+
+@media (max-width: 540px) {
+  .number {
+    font-size: 8em;
+  }
+}
